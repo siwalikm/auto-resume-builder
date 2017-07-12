@@ -1,0 +1,195 @@
+#footer{
+    bottom: 0;
+    position:static;
+}
+html{
+    
+   background-color: #2B2B2B;
+
+}
+*{
+    margin:0 auto;
+        color:white;
+}
+#header {
+    width: 100%;
+    height: 10%;
+align-content: center;
+background-color: #DE1B1B;
+font-size: 38px;
+   font-family: source-sans-pro, sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 20px;  
+    color:#fff;
+}
+input{
+    color:black;
+}
+#subheader{
+  width: 100%;
+    height: 4%;
+   margin: 0 auto;
+    padding-top: 7px;
+    align-content: center;
+    text-align: center;
+    background-color: rgba(222, 27, 27, 0.47);
+    font-family: source-sans-pro, sans-serif;
+ 
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+#mainlogin{
+   align-content: center;
+    text-align: center
+    padding: 25px;
+   background-color: rgba(204, 204, 204, 0.31);
+    margin: 100px auto;
+    padding-top: 20px;
+    height: 45%;
+    width: 295px;
+    border-radius: 9px;
+
+    
+}
+
+#mainlogin li{
+    margin-top: auto;
+ padding: 9px;
+   
+    display: block;  
+  
+     font-family: source-sans-pro, sans-serif;
+     
+}
+
+label {  
+    display: block;  
+        color:white;  
+    margin-bottom: 5px;
+    
+}  
+
+#mainlogin input:not(#button) {  
+    padding: 5px;  
+    margin-right: 10px;  
+    border: 1px solid rgba(0, 0, 0, 0.3);  
+    border-radius: 5px;  
+    box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.1),   
+                0px 1px 0px 0px rgba(250, 250, 250, 0.5) ;  
+}  
+
+#button{
+    
+ margin-left: 4;
+    font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background: none;
+  cursor: pointer;
+  padding: 0px 52px;
+  display: inline-block;
+  margin-top: 15px ;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  outline: none;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+    
+    border: 2px solid #DE1B1B;
+  border-radius: 15px;
+    
+    color: #fff;
+  background: #DE1B1B;
+  -webkit-transition: none;
+  -moz-transition: none;
+  transition: background-color 0.5s ease;
+ 
+    
+}
+#newuser input{
+    padding:0px 41.5px;
+      margin-top: -7px;
+    margin-left: 4;
+}
+#button:hover{
+    
+    background-color: white;
+    color: #777;  
+       border: 2px solid rgba(222, 27, 27, 0.47);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#btn {
+  background: #de5f1b;
+ 
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: px;
+  font-family: Arial;
+  color: #fff;
+  font-size: 15px;
+  padding: 5px 10px;
+  text-decoration: none;
+    margin-left: 78;
+    margin-top: 70;
+    transition: background-color 0.5s ease;
+      float: right;
+}
+
+#btn:hover {
+  background-color: #00506d;
+ 
+    
+
+}
+
+#help {
+    float: right;
+    margin:20px;
+    height:30px;
+    width: 60px;
+    border-radius: 10px;
+    
+    color:white;
+    background-color: #1b39de;
+}
+
+#HELP1:hover>#screen{
+ display:block;
+    z-index:1;
+    position:absolute;
+    width: 60%;
+    height: 70%;
+    margin: 0 auto;
+}
+
+#screen {
+  display: none;
+  padding: 40px;
+  padding-left: 258px;
+}

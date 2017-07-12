@@ -1,0 +1,153 @@
+html{
+        
+         background-color: #2B2B2B;
+    font-family: source-sans-pro, sans-serif;
+
+}
+*{
+    margin:0 auto;
+    color:white;
+}
+#footer{
+    bottom: 0;
+    position:static;
+}
+#header {
+    width: 100%;
+    height: 10%;
+align-content: center;
+background-color: #DE1B1B;
+font-size: 38px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 20px;  
+}
+
+#subheader{
+  width: 100%;
+    height: 4%;
+   margin: 0 auto;
+    padding-top: 7px;
+    align-content: center;
+    text-align: center;
+    background-color: rgba(222, 27, 27, 0.47);
+    font-size: 14px;
+}
+
+label::after{
+    content: "*";
+}
+
+
+input{
+     border-radius:5px;
+    color:black;
+}
+ #new{
+     display:none;
+ }
+
+#new1{
+    display:none;
+}
+
+#new2{
+    display:none;
+}
+#work2{
+    display:none;
+}
+#work3{
+    display:none;
+}
+
+fieldset{
+    width:70%;
+    margin:0 auto;
+    background-color: rgba(190, 185, 185, 0.12);
+    border:0;
+	margin-top: 29px;
+
+}
+#country1{
+    color:black;
+}
+#country1 option{
+    color:black;
+}
+#submit{
+    display:none;
+    font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background: none;
+  cursor: pointer;
+  padding: 0px 52px;
+  margin-top: 15px ;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  outline: none;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+    
+    border: 2px solid #DE1B1B;
+  border-radius: 15px;
+    
+    color: #fff;
+  background: #DE1B1B;
+  -webkit-transition: none;
+  -moz-transition: none;
+  transition: background-color 0.5s ease;
+}
+
+input[type=button]{
+    color:black;
+}
+#others{
+    color:black;
+    font-family: inherit;
+    font-size:16px;
+}
+#submit:hover{
+    
+    background-color: white;
+    color: #777;
+     border: 2px solid rgba(222, 27, 27, 0.47);
+}
+#footer{
+    background-color: rgba(29, 25, 25, 0.94);
+    width:100%;
+   
+    height:65;
+}
+center {
+  padding-top: 25;
+}
+#help {
+    float: right;
+    margin:20px;
+    height:30px;
+    width: 60px;
+    border-radius: 10px;
+    
+    color:white;
+    background-color: #1b39de;
+}
+
+#HELP1:hover>#screen{
+ display:block;
+    z-index:1;
+    position:absolute;
+    width: 70%;
+    height: 80%;
+    margin: 0 auto;
+}
+
+#screen {
+  display: none;
+  padding: 40px;
+  padding-left: 192px;
+}

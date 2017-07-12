@@ -1,0 +1,100 @@
+
+html{
+        
+         background-color: #2B2B2B;
+    font-family: source-sans-pro, sans-serif;
+
+}
+*{
+    margin:0 auto;
+    color:white;
+}
+#header {
+    width: 100%;
+    height: 10%;
+align-content: center;
+background-color: #DE1B1B;
+font-size: 38px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 20px;  
+}
+p{ text-align: justify;
+    text-justify: inter-word;}
+#subheader{
+  width: 100%;
+    height: 4%;
+   margin: 0 auto;
+    padding-top: 7px;
+    align-content: center;
+    text-align: center;
+    background-color: rgba(222, 27, 27, 0.47);
+    font-size: 14px;
+}
+
+h1{
+    color: #DE1B1B;
+}
+#mainleft{
+    float: left;
+    margin-left: 25;
+    width: 45%;
+    
+}
+
+#mainright{
+   float: right;
+  margin-left: 50%;
+  width: 49%;
+  position: fixed;
+}
+
+.pass {
+    color: #0f0;
+}
+
+table,  td {
+    border: 1px solid white;
+    padding: 3;
+}
+
+
+.round {
+  
+  
+  
+    -webkit-border-radius: 94px 94px 94px 94px;
+    
+    width: 90%;
+   -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+  
+}
+
+.round:hover {  -webkit-filter: blur(50px);
+    
+}
+
+.nottable {border: none;
+text-align: center;
+    font-weight: bold;
+
+    
+}
+
+.fe{
+    border: none;
+text-align: center;
+    font-weight: bold;
+     padding: 0;
+}
+.fe1{
+    border: none;
+text-align: center;
+    font-weight: bold;
+     padding: 0;
+    color: #919191;
+}
